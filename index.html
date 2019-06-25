@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Formulario De Contacto</title>
+		<link rel="stylesheet" type="text/css" href="estilo.css">
+	</head>
+	<body>
+		<div class="form">
+			<form action="guardar.php" method="POST">
+				<center>
+				<p style="color: white">Registro de Facturas</p>
+				</center>
+				<label for="nombre">N° de Factura</label>
+				<br>
+				<input type="text" name="nombre" placeholder="Escriba su número de factura" required>
+				<center>
+				<p style="color: white">Datos del Cliente</p>
+				</center>
+				<label for="correo">Nombre y Apellido</label>
+				<br>
+				<input type="email" name="correo" placeholder="Ingrese su Nombre y Apellido" required>
+				<center>
+				<p style="color: white">Mensaje</p>
+				</center>
+				<label for="mensaje">Su Mensaje</label>
+				<br>
+				<textarea name="mensaje" placeholder="Escriba su Mensaje" required></textarea>
+				<br>
+				<br>
+				<input type="submit" value="Enviar">
+			</form>
+		</div>
+	</body>
+</html>
